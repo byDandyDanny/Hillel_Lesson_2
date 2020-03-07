@@ -11,9 +11,13 @@ header {
 	font-size: 30px;
 	color: #fff;
 }
+button {
+	border: 0;
+	border-radius: 4px;
+	cursor: pointer;
+}
 .container {
 	max-width: 800px;
-	min-height: 300px;
 	margin: 0 auto;
 }
 .logo {
@@ -22,22 +26,55 @@ header {
 .logo img {
 	width: 160px;
 }
+.heading {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
 .heading .description {
 	font-family: 'Roboto';
 	font-weight: 100;
 	font-size: 13px;
 	font-style: italic;
+	margin-right: 10px;
 }
 .login {
 	background-color: #3d4b60;
-	border-radius: 4px;
-	border: 0;
 
 	color: #cad1db;
 	font-family: Roboto;
 	font-size: 14px;
 	font-weight: 400;
 	text-transform: uppercase;
-	cursor: pointer;
 	padding: 8px 10px;
 }	
+.text h1 {
+	color: #ffffff;
+	font-family: "Roboto Slab";
+	font-size: 30px;
+	font-weight: 400;
+}
+.text p {
+	color: #c5d2e5;
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: 400;
+	max-width: 384px;
+	margin: 40px 0;
+}
+.text button {
+	color: #ffffff;
+	font-family: Roboto;
+	font-size: 35px;
+	padding: 20px 30px;
+	background-color: #67bf95;
+}
+.messages {
+	width: 303px;
+}
+.banner {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 156px;
+	align-items: center;
+}
