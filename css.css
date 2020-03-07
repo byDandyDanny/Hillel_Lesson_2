@@ -1,0 +1,12 @@
+body {
+	margin: 0;
+}
+header {
+	background: url('Layer_4.png'), rgba(69, 84, 105, 0.9);
+	min-height: 615px;
+	background-size: cover;
+	background-position: top;
+	background-blend-mode: multiply;
+	/*filter: blur(3px);*/
+
+}
